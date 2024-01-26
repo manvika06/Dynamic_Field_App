@@ -1,0 +1,45 @@
+/* src/app.css */
+.app-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.form-box {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px;
+  width: 300px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+button {
+  margin-top: 10px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.flex-container {
+  display: contents;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
